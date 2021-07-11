@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazir FD-WOL';
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  background-image: linear-gradient(120deg, #27ae60, #3498db);
+  min-height: 100vh;
+}
+
+hr {
+  padding: none;
+  border: 0.5px dashed black;
+  color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+#ToDoInput {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.task {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i {
+  float: left;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.completed .task {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.completed {
+  margin-top: 10px;
+}
